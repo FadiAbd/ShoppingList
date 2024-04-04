@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shopping-item-bought {
+  background-color: #f8d7da;
+  color: #721c24;
+  text-decoration: line-through;
+}
+
+.delete-btn {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: none;
+  margin-left: 10px;
+}
+
+.delete-btn:hover {
+  color: #fff;
+  background-color: #dc3545;
+}
